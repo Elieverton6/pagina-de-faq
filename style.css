@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 234, 252)
+}
+
+html,body {
+    height: 100%;
+}
+
+.faq-container {
+    margin: 1rem auto;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.faq {
+    border-radius: 0.3rem;
+    border: 2px solid rgba(202, 88, 255, 0.5);
+    margin: 1rem 0;
+    width: 500px;
+    padding: 1rem;
+    background-color: rgb(197, 110, 255);
+}
+
+.faq-img {
+    margin: 0 0 1rem 0;
+}
+
+.hr {
+    display: none;
+    margin: 0.5rem 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.082);
+    height: 2px;
+}
+
+.text-img p {
+    font-family: sans-serif;
+    font-weight: 550;
+    color: white;
+}
+
+.hr-p {
+    border-radius: 1rem;
+    margin: 0.1rem auto 1rem auto;
+    width: 50%;
+    background-color: rgba(196, 47, 255, 0.212);
+    height: 4px;
+}
+
+.text-img {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.faq-text-contain span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faqName h1 {
+    text-align: left !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 101, 253);
+}
+
+.faq i {
+    border-radius: 1rem;
+    padding: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgb(204, 0, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+span {
+    display: none;
+}
+
+@media only screen and (max-width: 520px) {
+    
+    .faq {
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    .faq-img {
+        justify-content: center;
+        display: flex;
+    }
+
+    .faq-img img {
+        width: 60%;
+    }
+
+    .faqName h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
